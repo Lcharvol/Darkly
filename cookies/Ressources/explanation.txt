@@ -1,0 +1,1 @@
+Lors de l'arrivee de l'utilisateur sur le site, un cookie est setter avec comme nom "I_am_admin" et comme valeur "false" hasher avec md5. Il suffit donc, a l'aide de l'extenssion chrome 'EditThisCookie' de modifier sa valeur par "true", lui aussi hasher avec md5, puis de reload la page et un pop up apparait avec le flag.
