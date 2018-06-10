@@ -1,0 +1,1 @@
+En passant la souris sur les icons des reseaux sociaux, on observe que ceux-ci nous enmenent sur la page "redirect" du site avec comme parametre le reseau social en question. Cependant, si l'on rentre cette url manuellement mais que l'on ommet la valeur du parametre "site", on obtient alors le flag ce qui nous prouve que la redirection n'est pas securise.
