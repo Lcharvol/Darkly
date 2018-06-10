@@ -1,0 +1,5 @@
+En accedant au classique "robots.txt", on voit que celui desactive l'indexage de deux pages: "/whatever" et "/.hidden".
+
+Apres plusieurs minute de recherche, on se rend compte que "/.hidden" n'est remplis que de troll, mais "/whatever" nous donne acces a un fichier "htppasswd" qui contient un cle root avec pour valeur 8621ffdbc5698829397d97767ac13db3, qui une fois decrypter nous donne le mot "dragon".
+
+Apres quelques recherches, on s'appercoit que "root" et "dragon" sont en fait les identifiants du compte admin accessible par la root "/admin"
