@@ -1,0 +1,1 @@
+Sur la page survey, les input de type number ne sont pas proteger, il suffit de modifier manuellement le DOM a l'aide de l'inspecteur d'elements du navigateur et d'envoyer une valeur qui depasse l'Int max.
