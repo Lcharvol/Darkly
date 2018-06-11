@@ -1,0 +1,9 @@
+Navigateur a utiliser: Firefox
+
+On requete la page en modifiant le header (a l'aide de l'outils reseau de Firefox) avec:
+
+- Referer: https://www.nsa.gov/
+
+- User-Agent: ft_bornToSec
+
+La reponse de la requete contient le flag
